@@ -1,0 +1,91 @@
+/*  COLUMNS  */
+
+* 
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
+
+*:before,
+*:after 
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
+
+.row
+	margin: 0 -15px
+	padding: 0
+	position: relative
+
+.container,
+.container-small
+	padding: 0
+	margin: 0 auto
+	width: 100%
+	
+.container-full
+	height: auto
+	position: relative
+	width: 100%
+	margin: 0
+
+.container:after, .container-full:after, .container-small:after, .row:after
+	clear: both
+
+.clearfix:before, .clearfix:after, .container:before, .container:after, .container-full:before, .container-full:after, .container-small:before, .container-small:after, .row:before, .row:after
+	display: table
+	content: ""
+
+*[class*="col-"]
+	position: relative
+	min-height: 1px
+	padding: 0 15px
+	margin: 0
+	float: left
+
+// @for $i from 1 through 100
+// 	.col-xs-#{$i},
+// 	.col-s-#{$i},
+// 	.col-m-#{$i},
+// 	.col-l-#{$i},
+// 	.col-xl-#{$i},
+// 	.col-xxl-#{$i}
+// 		position: relative
+// 		min-height: 1px
+// 		padding: 0 15px
+// 		margin: 0
+// 		float: left
+
+
+// @for $i from 1 through 100
+// 	.col-xs-#{$i}
+// 		width: percentage($i / 100)
+
+// /*  S screen > 580  */
+// @media(min-width: 36.250em)
+// 	@for $i from 1 through 100
+// 		.col-s-#{$i}
+// 			width: percentage($i / 100)
+
+// /*  M screen > 800  */
+// @media(min-width:50em)
+// 	@for $i from 1 through 100
+// 		.col-m-#{$i}
+// 			width: percentage($i / 100)
+
+// /*  L screen > 1024  */
+// @media(min-width:64em)
+// 	@for $i from 1 through 100
+// 		.col-l-#{$i}
+// 			width: percentage($i / 100)
+
+// /*  XL screen > 1280  */
+// @media(min-width:80.063em)
+// 	@for $i from 1 through 100
+// 		.col-xl-#{$i}
+// 			width: percentage($i / 100)
+
+// /*  XXL screen > 1441  */
+// @media(min-width:90.063em)
+// 	@for $i from 1 through 100
+// 		.col-xxl-#{$i}
+// 			width: percentage($i / 100)	
