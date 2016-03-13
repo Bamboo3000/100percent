@@ -4,7 +4,10 @@ jQuery column framework
 syntax:
 
 <b>X</b> - number of columns<br/>
-<b>Y</b> - total columns number
+<b>Y</b> - total columns number<br/>
+
+You should use only counting numbers - without 0.
+You can use whatever counting numbers you want :)
 
 min. width 1441px:  col-xxl-<b>X</b>of<b>Y</b><br/>
 min. width 1280px:  col-xl-<b>X</b>of<b>Y</b><br/>
