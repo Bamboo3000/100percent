@@ -14,10 +14,10 @@ min. width 580px:   col-s-<b>X</b>of<b>Y</b><br/>
 max. width 579px:   col-xs-<b>X</b>of<b>Y</b><br/>
 
 <b>EXAMPLE:</b><br/>
-<<code>
-div class="col-xxl-1of2 col-xl-3of12 col-l-5of20"
-</code>>
+<code>
+&lt;div class="col-xxl-1of2 col-xl-3of12 col-l-5of20"&gt;&lt;/div&gt;
+</code>
 
 # Install
 
-include jQuery from <a href="https://developers.google.com/speed/libraries/#jquery" target="_blank">here</a> and <b>columns.js</b> right before <code>body</code> ending tag.
+include jQuery from <a href="https://developers.google.com/speed/libraries/#jquery" target="_blank">here</a> and <b>columns.js</b> right before <code>&lt;/body&gt;</code> ending tag.
