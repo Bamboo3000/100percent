@@ -23,4 +23,5 @@ max. width 579px:   col-xs-<b>X</b>of<b>Y</b><br/>
 
 # Install
 
-include jQuery from <a href="https://developers.google.com/speed/libraries/#jquery" target="_blank">here</a> and <b>columns.js</b> right before <code>&lt;/body&gt;</code> ending tag.
+include jQuery from <a href="https://developers.google.com/speed/libraries/#jquery" target="_blank">here</a> and <b>columns.js</b> right before <code>&lt;/body&gt;</code> ending tag.<br/>
+Also include <b>columns.css</b> in <code>&lt;head&gt;</code> section.
